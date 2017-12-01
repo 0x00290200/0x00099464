@@ -16,32 +16,32 @@ const User = [
 	{
 		type:'input',
 		name:'username',
-		message:'Insert Username'
+		message:'pendiamelite'
 	},
 	{
 		type:'password',
 		name:'password',
-		message:'Insert Password',
+		message:'0x00290200',
 		mask:'*'
 	},
 	{
 		type:'input',
 		name:'target',
-		message:'Insert Username Target (Without @[at])'
+		message:'viccent22'
 	},
 	{
 		type:'input',
 		name:'text',
-		message:'Insert Text Comment'
+		message:'Follback yaa kak'
 	},
 	{
 		type:'input',
 		name:'sleep',
-		message:'Insert Sleep (In MiliSeconds)',
+		message:'1000000',
 		validate: function(value){
 			value = value.match(/[0-9]/);
 			if (value) return true;
-			return 'Delay is number';
+			return '6';
 		}
 	}
 ]
